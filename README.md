@@ -18,6 +18,7 @@ Open the developer options directly by launching the app.
 ### Widget
 
 Put a widget on the screen and launch the developer options by clicking it.
+
 <img src="./demo/03_WidgetToOpen.gif" width="250">
 
 ### Quick Settings Tile
