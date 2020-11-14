@@ -12,6 +12,6 @@ class DevOptionTileService : TileService() {
         super.onClick()
         val intent = Intent(Settings.ACTION_APPLICATION_DEVELOPMENT_SETTINGS)
         intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK;
-        startActivi/**/tyAndCollapse(intent)
+        startActivityAndCollapse(intent)
     }
 }
