@@ -1,3 +1,5 @@
+![CI](https://github.com/helton-isac/AndroidDevOptionsShortCut/workflows/CI/badge.svg)
+
 # Android Developer Options Shortcut
 
 This app intends to be a helpful shortcut to the Android Developer Options screen.
