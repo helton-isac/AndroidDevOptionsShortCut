@@ -25,11 +25,11 @@ Put a widget on the screen and launch the developer options by clicking it.
 
 ### Quick Settings Tile
 
-For Android N and above it is possible put a tile on quick settings and lauch the developer option by clicking on it.
+For Android N and above it is possible put a tile on quick settings and launch the developer option by clicking on it.
 
 <img src="./demo/04_AddTile.gif" width="250">  <img src="./demo/05_TileToOpen.gif" width="250">
 
-## Colaborate
+## Collaborate
 
 Feel free to collaborate.
 

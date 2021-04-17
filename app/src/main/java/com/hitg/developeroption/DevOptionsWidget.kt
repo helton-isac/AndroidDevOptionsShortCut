@@ -5,8 +5,10 @@ import android.appwidget.AppWidgetManager
 import android.appwidget.AppWidgetProvider
 import android.content.Context
 import android.content.Intent
+import android.os.Build
 import android.provider.Settings
 import android.widget.RemoteViews
+import androidx.annotation.RequiresApi
 
 /**
  * Implementation of App Widget functionality.
@@ -37,7 +39,7 @@ internal fun updateAppWidget(
     appWidgetId: Int
 ) {
     val views = RemoteViews(context.packageName, R.layout.developer_options_shortcut)
-    val intent = Intent(Settings.ACTION_APPLICATION_DEVELOPMENT_SETTINGS)
+    val intent = DevOptionUtil.getMostAppropriateIntent(context)
     val pendingIntent = PendingIntent.getActivity(context, 0, intent, 0)
     views.setOnClickPendingIntent(R.id.ivWidgetIcon, pendingIntent)
     appWidgetManager.updateAppWidget(appWidgetId, views)
