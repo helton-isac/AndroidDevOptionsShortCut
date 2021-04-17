@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Dev Option</string>
+    <string name="app_name" translatable="false">Dev Option</string>
+    <string name="you_need_enable_dev_options">You need first to enable developer options.</string>
 </resources>
